@@ -2,86 +2,120 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
-
-header {
+  }
+  
+  header {
     background-color: rgb(141, 15, 82);
     color: white;
     text-align: center;
     padding: 1rem 0;
-}
-
-.imagen-personalizada {
-    width: 200px;
-    height: 200px;
   }
-
-nav {
+  
+  .imagen-personalizada {
+    width: 160px;
+  }
+  
+  nav {
     background-color: #5d002b;
     color: white;
     text-align: center;
     padding: 0.5rem 0;
-}
-
-nav a {
+  }
+  
+  nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
-}
-
-.productos {
+  }
+  
+  .acerca-de {
+    text-align: center;
+    background-image: url("./Images/paletas.jpg");
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .banner_acerca-de {
+    background-color: rgba(12, 165, 220, 0.5);
+  }
+  
+  .banner_acerca-de h1 {
+    font-size: xx-large;
+  }
+  
+  .menu {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1rem;
+    gap: 0.9rem;
+  }
+  
+  .productos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     padding: 20px;
-}
-
-.producto {
+  }
+  
+  .producto {
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 15px;
     text-align: center;
     width: 250px;
-}
-
-.producto img {
+  }
+  
+  .producto img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
-}
-
-footer {
+  }
+  
+  .contacto {
+    max-width: 800px;
+    margin: 2rem auto;
+  }
+  
+  footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 1rem 0;
     margin-top: 20px;
-}
-
-form {
+  }
+  
+  form {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
     margin: 20px;
-}
-
-input, textarea, button {
+  }
+  
+  input,
+  textarea,
+  button {
     width: 100%;
     max-width: 400px;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
-}
-
-button {
+  }
+  
+  button {
     background-color: #af4c4f;
     color: white;
     border: none;
     cursor: pointer;
-}
-
-button:hover {
+  }
+  
+  button:hover {
     background-color: #af4c4f;
-}
+  }
+  
